@@ -36,3 +36,7 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
  terraform backend file
 
  take ben katzav code for infrastructure?
+
+these resources stay:
+weight_app_network
+weight_app_sysadmin_ip
