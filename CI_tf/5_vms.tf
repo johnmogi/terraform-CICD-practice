@@ -33,7 +33,7 @@ resource "azurerm_linux_virtual_machine" "backend_vm" {
   }
 
   os_disk { 
-    name              = "sysadmin_disk"
+    name              = "backend_disk"
     caching           = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
